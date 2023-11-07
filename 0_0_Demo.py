@@ -2,7 +2,7 @@ import tkinter as tk
 import ttkbootstrap as root
 
 # Window
-window = root.Window()
+window = root.Window(themename = 'darkly')
 window.title("Demo")
 window.geometry("300x150")
 
